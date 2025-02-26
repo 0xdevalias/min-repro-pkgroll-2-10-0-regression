@@ -1,0 +1,29 @@
+{
+  "name": "min-repro-pkgroll-2-10-0-regression",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Glenn 'devalias' Grant (https://devalias.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/0xdevalias/min-repro-pkgroll-2-10-0-regression#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xdevalias/min-repro-pkgroll-2-10-0-regression.git"
+  },
+  "bugs": {
+    "url": "https://github.com/0xdevalias/min-repro-pkgroll-2-10-0-regression/issues"
+  },
+  "type": "module",
+  "main": "dist/index.mjs",
+  "bin": {
+    "humanify": "dist/index.mjs"
+  },
+  "scripts": {
+    "build": "pkgroll",
+    "test": "node dist/index.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "pkgroll": "2.10.0",
+    "prettier": "3.5.1"
+  }
+}
