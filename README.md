@@ -1,5 +1,12 @@
 # min-repro-pkgroll-2-10-0-regression
 
+Upstream Bug Report:
+
+- https://github.com/privatenumber/pkgroll/issues/115
+  - > TypeError [ERR_INVALID_ARG_VALUE]: The argument 'filename' must be a file URL object, file URL string, or absolute path string. Received `undefined` at `createRequire`
+
+---
+
 `pkgroll` `2.8.2` worked fine, but since `2.10.0`, and still on `2.11.0`; we're seeing the following error:
 
 - https://github.com/jehna/humanify/pull/322#issuecomment-2661324667
